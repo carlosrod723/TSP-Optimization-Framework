@@ -1,0 +1,51 @@
+# Mainnet Simulation Parameters
+mainnet:
+  # Time constraints (in seconds)
+  time_limits:
+    small_instance: 1.0    # For problems <= 20 nodes
+    medium_instance: 3.0   # For problems <= 50 nodes
+    large_instance: 5.0    # For problems > 50 nodes
+  
+  # Resource limits
+  resource_limits:
+    max_memory_mb: 1024
+    max_cpu_usage_percent: 90
+  
+  # Performance thresholds
+  performance:
+    # Maximum acceptable ratio compared to known optimal solution
+    # e.g., 1.2 means solution can be up to 20% worse than optimal
+    solution_quality_threshold: 1.2
+    
+    # Minimum success rate to maintain registration
+    min_success_rate: 0.95
+    
+    # Maximum allowed failures before deregistration risk
+    max_consecutive_failures: 3
+  
+  # Problem categories
+  problem_sizes:
+    small: 20   # Maximum nodes for small instance
+    medium: 50  # Maximum nodes for medium instance
+    large: 100  # Maximum nodes for large instance
+  
+  # Network simulation
+  network:
+    # Simulated network latency (ms)
+    min_latency: 50
+    max_latency: 200
+    
+    # Network stability
+    packet_loss_rate: 0.01
+    connection_timeout: 5.0  # seconds
+    
+  # Testing parameters
+  testing:
+    # Number of test runs for each problem size
+    num_test_runs: 100
+    
+    # Warm-up period before measuring performance
+    warmup_runs: 5
+    
+    # Problem sizes to test
+    test_sizes: [10, 20, 50, 75, 100]

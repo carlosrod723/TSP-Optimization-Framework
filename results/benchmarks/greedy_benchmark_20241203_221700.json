@@ -1,0 +1,38 @@
+{
+  "size_10": {
+    "algorithm_name": "greedy",
+    "problem_size": 10,
+    "total_runs": 5,
+    "successful_runs": 5,
+    "average_time": 6.568219996552215e-05,
+    "average_quality": 1.0,
+    "max_memory_usage": 28.02734375,
+    "average_cpu_usage": 10.46,
+    "deregistration_risk": false,
+    "timestamp": "20241203_221700"
+  },
+  "size_20": {
+    "algorithm_name": "greedy",
+    "problem_size": 20,
+    "total_runs": 5,
+    "successful_runs": 5,
+    "average_time": 0.00010325000002922024,
+    "average_quality": 1.0,
+    "max_memory_usage": 28.0546875,
+    "average_cpu_usage": 6.22,
+    "deregistration_risk": false,
+    "timestamp": "20241203_221700"
+  },
+  "size_50": {
+    "algorithm_name": "greedy",
+    "problem_size": 50,
+    "total_runs": 5,
+    "successful_runs": 5,
+    "average_time": 0.00042005819996120407,
+    "average_quality": 1.0,
+    "max_memory_usage": 28.15625,
+    "average_cpu_usage": 1.28,
+    "deregistration_risk": false,
+    "timestamp": "20241203_221700"
+  }
+}

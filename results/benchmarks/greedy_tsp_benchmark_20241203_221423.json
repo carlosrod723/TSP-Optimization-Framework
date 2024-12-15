@@ -1,0 +1,26 @@
+{
+  "size_10": {
+    "algorithm_name": "greedy_tsp",
+    "problem_size": 10,
+    "total_runs": 2,
+    "successful_runs": 2,
+    "average_time": 4.76160003017867e-05,
+    "average_quality": 1.0,
+    "max_memory_usage": 27.12890625,
+    "average_cpu_usage": 11.45,
+    "deregistration_risk": false,
+    "timestamp": "20241203_221423"
+  },
+  "size_20": {
+    "algorithm_name": "greedy_tsp",
+    "problem_size": 20,
+    "total_runs": 2,
+    "successful_runs": 2,
+    "average_time": 0.00013285900013215723,
+    "average_quality": 1.0,
+    "max_memory_usage": 27.140625,
+    "average_cpu_usage": 6.75,
+    "deregistration_risk": false,
+    "timestamp": "20241203_221423"
+  }
+}

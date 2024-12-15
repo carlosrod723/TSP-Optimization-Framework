@@ -1,0 +1,47 @@
+TSP Solver Implementation Comparison
+============================================================
+
+
+Problem Size: 10
+----------------------------------------
+
+Greedy Algorithm:
+  Base: Distance=3.46, Time=0.000s
+  Ours: Distance=2.37, Time=0.000s
+
+Beam Search:
+  Base: Distance=3.46, Time=0.000s
+  Ours: Distance=3.15, Time=0.005s
+
+Problem Size: 20
+----------------------------------------
+
+Greedy Algorithm:
+  Base: Distance=4.56, Time=0.000s
+  Ours: Distance=3.56, Time=0.000s
+
+Beam Search:
+  Base: Distance=5.03, Time=0.000s
+  Ours: Distance=3.84, Time=0.094s
+
+Problem Size: 50
+----------------------------------------
+
+Greedy Algorithm:
+  Base: Distance=7.20, Time=0.000s
+  Ours: Distance=6.23, Time=0.012s
+
+Beam Search:
+  Base: Distance=7.95, Time=0.005s
+  Ours: Distance=6.51, Time=3.306s
+
+Problem Size: 100
+----------------------------------------
+
+Greedy Algorithm:
+  Base: Distance=11.05, Time=0.002s
+  Ours: Distance=9.94, Time=0.042s
+
+Beam Search:
+  Base: Distance=12.48, Time=0.018s
+  Ours: Distance=11.01, Time=53.033s

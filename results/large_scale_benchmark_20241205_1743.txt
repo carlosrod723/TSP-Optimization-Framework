@@ -1,0 +1,15 @@
+Large-Scale TSP Benchmark Results
+================================
+
+
+Size 1000:
+Error: 'pmem' object has no attribute 'peak'
+
+Size 2000:
+Error: 'int' object is not subscriptable
+
+Size 5000:
+Error: 'int' object is not subscriptable
+
+Size 10000:
+Error: 'int' object is not subscriptable

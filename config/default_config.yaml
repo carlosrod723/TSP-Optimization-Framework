@@ -1,0 +1,22 @@
+solver_config:
+  greedy:
+    enabled: true
+    use_2opt: true
+    max_iterations: 1000
+  dynamic_programming:
+    enabled: true
+    memory_limit_mb: 1024
+  beam_search:
+    enabled: true
+    beam_width: 10
+    max_iterations: 500
+  pointer_network:
+    enabled: true
+    hidden_size: 128
+    num_layers: 3
+
+
+logging_config:
+  level: INFO
+  file: logs/tsp_optimizer.log
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'

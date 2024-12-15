@@ -1,0 +1,42 @@
+TSP Optimizer Stress Test Results
+================================
+
+Test Duration: 1.0 hours
+Start Time: 2024-12-05 11:56:53.451949
+End Time: 2024-12-05 12:56:53.451949
+
+Overall Performance:
+Total Problems: 15
+Success Rate: 100.00%
+Deregistration Risks: 0
+
+Performance by Problem Size:
+
+Size 10:
+  Success Rate: 100.00%
+  Average Time: 0.007s
+  Maximum Time: 0.007s
+
+Size 20:
+  Success Rate: 100.00%
+  Average Time: 0.000s
+  Maximum Time: 0.000s
+
+Size 50:
+  Success Rate: 100.00%
+  Average Time: 0.029s
+  Maximum Time: 0.041s
+
+Size 100:
+  Success Rate: 100.00%
+  Average Time: 0.044s
+  Maximum Time: 0.050s
+
+Size 200:
+  Success Rate: 100.00%
+  Average Time: 0.211s
+  Maximum Time: 0.213s
+
+Algorithm Usage:
+dynamic_programming: 3 times (20.0%)
+greedy: 12 times (80.0%)

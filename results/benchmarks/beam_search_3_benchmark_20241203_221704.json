@@ -1,0 +1,38 @@
+{
+  "size_10": {
+    "algorithm_name": "beam_search_3",
+    "problem_size": 10,
+    "total_runs": 5,
+    "successful_runs": 5,
+    "average_time": 0.0005010914002923528,
+    "average_quality": 1.0,
+    "max_memory_usage": 28.18359375,
+    "average_cpu_usage": 5.819999999999999,
+    "deregistration_risk": false,
+    "timestamp": "20241203_221704"
+  },
+  "size_20": {
+    "algorithm_name": "beam_search_3",
+    "problem_size": 20,
+    "total_runs": 5,
+    "successful_runs": 5,
+    "average_time": 0.0024950841998361284,
+    "average_quality": 1.0,
+    "max_memory_usage": 28.3515625,
+    "average_cpu_usage": 7.18,
+    "deregistration_risk": false,
+    "timestamp": "20241203_221704"
+  },
+  "size_50": {
+    "algorithm_name": "beam_search_3",
+    "problem_size": 50,
+    "total_runs": 5,
+    "successful_runs": 5,
+    "average_time": 0.03407104940015415,
+    "average_quality": 1.0,
+    "max_memory_usage": 30.1875,
+    "average_cpu_usage": 7.74,
+    "deregistration_risk": false,
+    "timestamp": "20241203_221704"
+  }
+}
